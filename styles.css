@@ -1,27 +1,32 @@
 * {
     padding: 0;
 }
-.card-img-top {
-    object-fit: cover;
+.logo {
+    max-width: 50vh;
+    max-height: 50vh;
 }
-.card-img-top {
-    width: 100%;
-    display: block;
+.list-group-item {
+    border: none;
 }
 /*Estilos de presentacion*/
 #fondoBienvenida {
     background-image: url(./IMAGENES/Central/imagenCentral.png);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-/*Estilos de Cards en general*/
+} 
+/*Card */
 .cardGenerales {
     border: none;
     background-color: transparent;
     margin: none;
     color: white;
 }
+.card-img-top {
+    width: 100%;
+    display: block;
+}
+
+/* titulos unificar!*/
 .titulo {
     color: #d5ac8c;
 }
@@ -31,6 +36,14 @@
 .titulo2 {
     color: #d5ac8c;
 }
+.title-alfajor {
+    color: #63421e;
+}
+.titulo3 {
+    color: #63421e;
+}
+
+/* Botones */
 .btn-primary {
     background-color: black;
     color: #d5ac8c;
@@ -51,21 +64,23 @@
     border-color: #63421e;
     color: #63421e;
 }
+.btn-info {
+    background-color: white;
+    border-color: #63421e;
+    color: #63421e;
+}
+
+/* fondos */
 .bg-black {
     background-color: black;
-}
-.card {
-    border: none;
 }
 .bg-alfajor {
     background-color: #d5ac8c;
 }
-.title-alfajor {
-    color: #63421e;
+.card {
+    border: none;
 }
-.titulo3 {
-    color: #63421e;
-}
+
 
 /*Media query*/
 @media screen and (min-width: 480px) and (max-width: 940px) {
@@ -108,15 +123,5 @@
         margin: 4rem;
     }
 }
-    .logo {
-        max-width: 50vh;
-        max-height: 50vh;
-    }
-    .list-group-item {
-        border: none;
-    }
-    .btn-info {
-        background-color: white;
-        border-color: #63421e;
-        color: #63421e;
-    }
+
+
