@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    /* overflow: hidden; */
+}
+.card-img-top{
+    object-fit: cover;
+}
+.card-img-top {
+    width: 100%;
+    display: block;
+    }
+/*Estilos de presentacion*/
+#fondoBienvenida{
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Estilos de Cards en general*/
+.cardGenerales{
+    border: none;
+    background-color: transparent;
+    /* padding: 1em; */
+    margin: none;
+    color: white;
+}
+.titulo{
+    color: #D5AC8C;
+}
+.card-title{
+    color: #D5AC8C;
+}
+.titulo2{
+    color: #D5AC8C;
+}
+.btn-primary{
+    background-color: black;
+    color: #D5AC8C;
+    border-color: #D5AC8C;
+
+}
+.btn-primary:hover{
+    background-color: #212529;
+    border-color: #D5AC8C;
+    color: #D5AC8C;
+}
+.btn-secondary{
+    background-color: #D5AC8C;
+    border-color: #63421E;
+    color: #63421E;
+}
+.btn-secondary:hover{
+    background-color: #212529;
+    border-color: #63421E;
+    color: #63421E;
+}
+.bg-black{ 
+    background-color: black;
+}
+.card{
+    border: none;
+}
+.bg-alfajor{
+    background-color:#D5AC8C;
+}
+.title-alfajor{
+    color: #63421E;
+}
+.titulo3{
+    color: #63421E;
+}
+
+
+/*Media query*/
+@media screen and (min-width:480px) and (max-width:940px){
+    .cardGenerales{
+        color: black;
+    }
+    #img-form{
+        display: none;
+    }
+}
+
+@media screen and (min-width:941px) and (max-width:1300px){
+    #fondoBienvenida{
+        height: 100%;
+    }
+    #redes {
+        margin: 0;
+    }
+    #contenedorBienvenida{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        min-height: 1000px;
+    }
+    .contenedorTexto{
+        margin: 4rem;
+    }
+    #fondoDeHeader{
+        min-height: 700px;
+    }
+    
+    
+}
+
+@media screen and (min-width:1301px){
+    #contenedorBienvenida{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+    .contenedorTexto{
+        margin: 4rem;
+    }
+}
+.logo {
+    max-width: 50vh;
+    max-height: 50vh;
+}
+.list-group-item{
+    border: none;
+}
+
+.btn-info{
+    background-color: white;
+    border-color: #63421E;
+    color: #63421E;
+}
