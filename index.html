@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HUMAYA</title>
+    <link rel="shortcut icon" href="IMAGENES/favicon/favicon.ico" type="image/x-icon">
     <!--Estilos de Bootstrap y propios-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -25,7 +26,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -48,11 +49,11 @@
     <main>
         <!--Presentación-->
         <section id="fondoBienvenida">
-        <div class="fondoDeHeader img-fluid" id="contenedorBienvenida">
-                <div class="card-body align-items-center contenedorTexto ">
+        <div class="fondoDeHeader img-fluid d-flex justify-content-end" id="contenedorBienvenida" >
+                <div class="card-body align-items-center text-center contenedorTexto " id="Contenedor2">
                     <h5 class="card-title text-white">DULCES DEL ALMA</h5>
-                    <p class="card-text mt-3">Los productos HUMAYA son elaborados desde hace más de 50 con tradiciones familiares y sabores caseros, acompañándote día a día</p>
-                    <button href="#" type="button" class="btn btn-dark d-grid gap-2 px-5 mx-auto mt-4">CONOCENOS</button>
+                    <p class="card-text text-white mt-3">Los productos HUMAYA son elaborados desde hace más de 50 con tradiciones familiares y sabores caseros, acompañándote día a día</p>
+                    <button href="#" type="button" class="btn btn-dark-opac text-white text-center d-grid gap-2 px-5 mx-auto mt-4 rounded-pill ">CONOCENOS</button>
                 </div>
             </div>
         </div>
@@ -63,7 +64,7 @@
                 <h1 class="m-3">Productos</h1>
             </div>
             
-            <article >
+            <article class="container-fluid" >
                 <div class="card col-sm-12" >
                     <div class="row">
                     <div class="col-md-6 p-0 ">
@@ -85,7 +86,7 @@
                 </div>
             </article>
 
-            <article>
+            <article class="container-fluid">
                 <div class="card">
                     <div class="row flex-row-reverse">
                     <div class=" col-12 col-md-6 p-0">
@@ -107,7 +108,7 @@
                 </div>
             </article>
 
-            <article>
+            <article class="container-fluid">
                 <div class="card">
                     <div class="row">
                     <div class="col-md-6 p-0">
@@ -163,10 +164,10 @@
         </div>
         </section> -->
     <section id="contacto">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6" id="img-form"> 
-                    <img src="./IMAGENES/Productos/Producto1.png" style="max-width:500px; min-height: 350px;" class="mt-5" alt=""> 
+        <div class="container-fluid">
+            <div class="row contact">
+                <div class="col-12 col-md-6 mb-3" id="img-form"> 
+                    <img src="./IMAGENES/Productos/Producto1.png" style="width:100%;height: 100%;" alt=""> 
                 </div> 
             <div class="col-12 col-md-6">
                 <h1 class="text-white d-flex justify-content-center">Contactanos</h1>
@@ -198,43 +199,43 @@
         <img src="./IMAGENES/Productos/Producto1.png" class="card-img-top" alt="...">
         <div class="card-body bg-alfajor">
             <h5 class="card-title text-center text-brown">CONITOS</h5>
-            <p class="card-text text-white">Una deliciosa opcion para acompaniar las meriendas, ese antojo de media noche o compartir con tus amigos.</p>
+            <p class="card-text card-text-rosa text-white">Una deliciosa opcion para acompaniar las meriendas, ese antojo de media noche o compartir con tus amigos.</p>
             <div class="d-flex justify-content-center">
                 <button type="button" class="btn btn-secondary">Preparacion</button>
             </div>
     </div>
-    <div class="card-footer">
+    <!-- <div class="card-footer">
         <small class="text-muted"></small>
-    </div>
+    </div> -->
     </div>
 
 
-    <div class="card mx-3 bg-alfajor">
+    <div class="card card-pepa mx-3 bg-alfajor">
         <img src="./IMAGENES/Productos/Producto2.png" class="card-img-top" alt="...">
         <div class="card-body bg-alfajor">
             <h5 class="card-title text-center text-brown">PEPAS</h5>
-            <p class="card-text text-white">Las galletitas mas tiernas y ricas, rellenas de dulce de leche, ideales para el mate y la hora del te.</p>
+            <p class="card-text card-text-rosa text-white">Las galletitas mas tiernas y ricas, rellenas de dulce de leche, ideales para el mate y la hora del te.</p>
             <div class="d-flex justify-content-center">
                 <button type="button" class="btn btn-secondary">Preparacion</button>
             </div>
         </div>
-    <div class="card-footer">
+    <!-- <div class="card-footer">
         <small class="text-muted"></small>
-    </div>
+    </div> -->
 </div>
 
     <div class="card bg-alfajor">
         <img src="./IMAGENES/Productos/Producto1.png" class="card-img-top" alt="...">
         <div class="card-body bg-alfajor">
             <h5 class="card-title text-center text-brown">TORTA NUTT</h5>
-            <p class="card-text text-white">La torta de tres capas mas sabrosa del mundo, combina una base de vainilla, dulce de leche y cubierta de choconutt</p>
+            <p class="card-text card-text-rosa text-white">La torta de tres capas mas sabrosa del mundo, combina una base de vainilla, dulce de leche y cubierta de choconutt</p>
             <div class="d-flex justify-content-center">
                 <button type="button" class="btn btn-secondary ">Preparacion</button>
             </div>
     </div>
-    <div class="card-footer">
+    <!-- <div class="card-footer">
         <small class="text-muted"></small>
-    </div>
+    </div> -->
     </div>
 </div>
 </section>
@@ -245,7 +246,7 @@
 
     <footer class="bg-black">
         <div class="row">
-            <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">                
+            <div class="col-12 col-md-2 d-flex justify-content-center align-items-center" id="logo-footer">                
                 <img src="./IMAGENES/Logo/HconDulce100x100.png" class="logo" alt="logo humaya" width="100px" height="100px">
             </div>
 
@@ -269,7 +270,7 @@
                 </ul>
             </div>
 
-            <div class="col-6 col-md-2">
+            <div class="col-6 col-md-3">
                 <h2 class="text-pink text-center mt-5">REDES</h2>
                 <div class="d-flex flex-column align-items-center" id="redes">
                     <div class="text-white my-3">
@@ -284,7 +285,7 @@
                 </div>
             </div>
 
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-2">
                 <h2 class="text-pink text-center mt-5">UBICACION</h2>
                 <div class="d-flex justify-content-center">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5295503125385!2d-58.37417559999999!3d-34.6413271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4c8ba34523%3A0x3036a22f0aed209f!2sAv.%20Montes%20de%20Oca%2C%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1662503946094!5m2!1sen!2sar"

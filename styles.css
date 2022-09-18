@@ -1,5 +1,6 @@
 * {
     padding: 0;
+    /* overflow: hidden; */
 }
 .logo {
     max-width: 50vh;
@@ -56,6 +57,9 @@
     border-color: #63421e;
     color: #63421e;
 }
+.btn-dark-opac{
+    background-color: rgba(33, 37, 41,.6);
+}
 
 .btn-info {
     background-color: white;
@@ -83,6 +87,12 @@
     #img-form {
     display: none;
     }
+    #Contenedor2{
+        max-width: 100%;
+    }
+    .card-pepa{
+        margin: 0px 0px 10px 0px  !important;
+    }
 }
 
 @media screen and (min-width: 941px) and (max-width: 1300px) {
@@ -92,17 +102,29 @@
     #redes {
         margin: 0;
     }
+    #img-form {
+        display: none;
+        }
     #contenedorBienvenida {
         display: flex;
         flex-flow: row nowrap;
         justify-content: flex-end;
-        min-height: 1000px;
+        /* min-height: 1000px; */
     }
     .contenedorTexto {
         margin: 4rem;
     }
     #fondoDeHeader {
         min-height: 700px;
+    }
+    #Contenedor2{
+        max-width: 300px;
+    }
+    .card-text-rosa{
+        min-height: 96px;
+    }
+    #logo-footer{
+        display: none;        
     }
 }
 
@@ -115,6 +137,26 @@
     .contenedorTexto {
         margin: 4rem;
     }
+    #Contenedor2{
+        max-width: 300px;
+    }
+    /* .btn-primary{
+        margin: 40px;
+    } */
+    .card-text-rosa{
+        min-height: 96px;
+    }
+    .card-pepa{
+        margin: 0px;
+    }
+    .btn-primary{
+        margin: 30px;
+    }
+    #logo-footer{
+        display: none;
+    }
 }
-
+#contacto{
+    overflow: hidden;
+}
 
