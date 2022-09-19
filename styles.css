@@ -80,7 +80,7 @@
 
 
 /*Media query*/
-@media screen and (min-width: 480px) and (max-width: 940px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
     .cardGenerales {
         color: black;
     }
@@ -90,12 +90,12 @@
     #Contenedor2{
         max-width: 100%;
     }
-    .card-pepa{
+    /* .card-pepa{
         margin: 0px 0px 10px 0px  !important;
-    }
+    } */
 }
 
-@media screen and (min-width: 941px) and (max-width: 1300px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     #fondoBienvenida {
         height: 100%;
     }
@@ -126,6 +126,9 @@
     #logo-footer{
         display: none;        
     }
+    /* .card-pepa{
+        margin: 0px 0px 0px 0px  !important;
+    } */
 }
 
 @media screen and (min-width: 1301px) {
