@@ -173,3 +173,10 @@
     overflow: hidden;
 }
 
+.bg-black .row{
+    margin-right: 0;
+}
+
+.m-3{
+    margin: 1rem 0 !important;
+}
