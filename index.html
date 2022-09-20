@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/56402b4728.js" crossorigin="anonymous"></script>
 </head>
-<body class="img-fluid bg-dark">
+<body class="bg-dark">
     <header>
         <!--Nav mobile-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <div class="d-flex align-items-center">
                     <a class="navbar-brand" href="#">
@@ -166,11 +166,14 @@
     <section id="contacto">
         <div class="container-fluid">
             <div class="row contact">
-                <div class="col-12 col-md-6 mb-3" id="img-form"> 
-                    <img src="./IMAGENES/Productos/Producto1.png" style="width:100%;height: 100%;" alt=""> 
+                <div class="col-12">
+                    <h1 class="text-white d-flex justify-content-center m-3">Contactanos</h1>
+                </div>
+                <div class="col-12 col-md-6 mb-3"> 
+                    <img src="./IMAGENES/Productos/Producto1.png" style="width: 100%;height: 100%;" alt=""> 
                 </div> 
-            <div class="col-12 col-md-6">
-                <h1 class="text-white d-flex justify-content-center">Contactanos</h1>
+            
+                <div class="col-12 col-md-6">                
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label text-white d-flex justify-content-center">NOMBRE</label>
                     <input type="text" class="form-control" aria-label="First name">
@@ -195,7 +198,11 @@
 <section>
 <div class="container-fluid bg-pink">
     <div class="row">
-    <div class="card bg-alfajor col-md-4">
+        <div class="col-12 text-center text-white m-3">
+            <h3>Recetas</h3> 
+        </div>
+    
+        <div class="card bg-alfajor col-md-4">
         <img src="./IMAGENES/Productos/Producto1.png" class="card-img-top" alt="...">
         <div class="card-body bg-alfajor">
             <h5 class="card-title text-center text-brown">CONITOS</h5>
@@ -227,6 +234,9 @@
             </div>
     </div>
     </div>
+    <div class="col-12 text-center text-white m-3">
+        <h3>Encontranos en:</h3> 
+    </div>
 </div>
 </div>
 </section>
@@ -238,7 +248,7 @@
     <footer class="bg-black">
         <div class="row">
             <div class="col-12 col-md-2 d-flex justify-content-center align-items-center" id="logo-footer">                
-                <img src="./IMAGENES/Logo/HconDulce100x100.png" class="logo" alt="logo humaya" width="100px" height="100px">
+                <img src="./IMAGENES/Logo/HconDulce100x100.png" class="logo" alt="logo humaya" width="100px" height="100px" id="logo-footer2">
             </div>
 
             <div class="col-6 col-md-2 text-center">
@@ -259,9 +269,9 @@
                 </ul>
             </div>
 
-            <div class="col-6 col-md-2 text-center"> 
+            <div class="col-6 col-md-2 text- "> 
                 <h5 class="text-pink mt-5">NAVEGACION</h5>
-                <ul class="list-group ">
+                <ul class="list-group d-flex justify-content-center">
                     <li class="list-group-item text-white bg-black">Preguntas frecuentes</li>
                     <li class="list-group-item text-white bg-black">Distribuidores</li>
                     <li class="list-group-item text-white bg-black">Prensa</li>

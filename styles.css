@@ -90,21 +90,21 @@
     #Contenedor2{
         max-width: 100%;
     }
+    #logo-footer{
+        display: hidden !important;
+    }
     /* .card-pepa{
         margin: 0px 0px 10px 0px  !important;
     } */
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 1300px) {
     #fondoBienvenida {
         height: 100%;
     }
     #redes {
         margin: 0;
     }
-    #img-form {
-        display: none;
-        }
     #contenedorBienvenida {
         display: flex;
         flex-flow: row nowrap;
@@ -130,7 +130,14 @@
         margin: 0px 0px 0px 0px  !important;
     } */
 }
-
+/* @media screen and (min-width: 992px) and (max-width: 1300px) {
+    #fondoBienvenida {
+        height: 100%;
+    }
+    #fondoDeHeader {
+        min-height: 700px;
+    }
+} */
 @media screen and (min-width: 1301px) {
     #contenedorBienvenida {
         display: flex;
@@ -157,6 +164,9 @@
     }
     #logo-footer{
         display: none;
+    }
+    #fondoBienvenida {
+        height: 100%;
     }
 }
 #contacto{
