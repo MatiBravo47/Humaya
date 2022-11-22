@@ -38,13 +38,7 @@
     max-width: 300px;
     margin: 4rem;
 }
-/*Card */
-.cardGenerales {
-    border: none;
-    background-color: transparent;
-    margin: none;
-    color: white;
-}
+
 .card-img-top {
     width: 100%;
     display: block;
@@ -117,7 +111,6 @@
     #Contenedor2{
         max-width: 100%;
     }
-
     #logo-footer{
         display: none;
     }
@@ -149,9 +142,6 @@
     }
     .card-text-rosa{
         min-height: 96px;
-    }
-    .card-pepa{
-        margin: 0px;
     }
     .btn-primary{
         margin: 30px;
@@ -191,3 +181,6 @@
     height: 100px;
 }
 
+#recetas .card{
+    border-radius: 0;
+}
