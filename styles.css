@@ -11,7 +11,7 @@
 }
 /*Estilos de presentacion*/
 #fondoBienvenida {
-    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-image: url(./img/Central/imagenCentral.png);
     background-size: cover;
     background-repeat: no-repeat;
 } 
