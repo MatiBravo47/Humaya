@@ -1,6 +1,23 @@
 * {
     padding: 0;
+    box-sizing: border-box;
     /* overflow: hidden; */
+}
+.container-fluid{
+    padding: 0;
+}
+.row{
+    margin-right: 0;
+}
+
+.m-3{
+    margin: 1rem 0 !important;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-brand{
+    color: white;
 }
 .logo {
     max-width: 50vh;
@@ -14,6 +31,8 @@
     background-image: url(./img/Central/imagenCentral.png);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 } 
 /*Card */
 .cardGenerales {
@@ -24,6 +43,13 @@
 }
 .card-img-top {
     width: 100%;
+    display: block;
+    height: 100%;
+}
+.card-text-rosa{
+    color: white;
+}
+.btn{
     display: block;
 }
 
@@ -41,7 +67,7 @@
     color: #d5ac8c;
     border-color: #d5ac8c;
 }
-.btn-primary:hover {
+.btn-primary:visited, .btn-primary:hover, .btn-primary:active  {
     background-color: #212529;
     border-color: #d5ac8c;
     color: #d5ac8c;
@@ -59,8 +85,12 @@
 }
 .btn-dark-opac{
     background-color: rgba(33, 37, 41,.6);
+    color: white;
 }
-
+.logo-navbar{
+    height: 48px;
+    width: 48px;
+}
 .btn-info {
     background-color: white;
     border-color: #63421e;
@@ -78,7 +108,6 @@
     border: none;
 }
 
-
 /*Media query*/
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .cardGenerales {
@@ -91,11 +120,8 @@
         max-width: 100%;
     }
     #logo-footer{
-        display: hidden !important;
+        display: none;
     }
-    /* .card-pepa{
-        margin: 0px 0px 10px 0px  !important;
-    } */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1300px) {
@@ -123,21 +149,8 @@
     .card-text-rosa{
         min-height: 96px;
     }
-    #logo-footer{
-        display: none;        
-    }
-    /* .card-pepa{
-        margin: 0px 0px 0px 0px  !important;
-    } */
 }
-/* @media screen and (min-width: 992px) and (max-width: 1300px) {
-    #fondoBienvenida {
-        height: 100%;
-    }
-    #fondoDeHeader {
-        min-height: 700px;
-    }
-} */
+
 @media screen and (min-width: 1301px) {
     #contenedorBienvenida {
         display: flex;
@@ -150,9 +163,6 @@
     #Contenedor2{
         max-width: 300px;
     }
-    /* .btn-primary{
-        margin: 40px;
-    } */
     .card-text-rosa{
         min-height: 96px;
     }
@@ -162,14 +172,38 @@
     .btn-primary{
         margin: 30px;
     }
-    #logo-footer{
-        display: none;
-    }
     #fondoBienvenida {
         height: 100%;
     }
 }
+
+.img-contactanos{
+    width: 100%;
+    height: 100%;
+}
+.fa-brands, .nav-link, .form-label{
+    color:white
+}
+.nav-link:hover{
+    color: brown;
+}
+.fa-square-facebook:hover {
+    color: #1977F3;
+}
+.fa-tiktok:hover{
+    color: pink;
+}
+.fa-instagram:hover{
+    color:#BC0089
+}    
+.list-group-item{
+    background-color: black;
+}
 #contacto{
     overflow: hidden;
+}
+#logo-footer {
+    width: 100px;
+    height: 100px;
 }
 

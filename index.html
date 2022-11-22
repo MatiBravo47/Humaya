@@ -1,323 +1,280 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HUMAYA</title>
-    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-    <!--Estilos de Bootstrap y propios-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/56402b4728.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HUMAYA</title>
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+  <!--Estilos de Bootstrap y propios-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/56402b4728.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-dark">
-    <header>
-        <!--Nav mobile-->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
-                <div class="d-flex align-items-center">
-                    <a class="navbar-brand" href="#">
-                        <img src="img/Logo/HconDulce100x100.png" alt="" width="48" height="48" class="d-inline-block align-text-top">
-                        <a class="navbar-brand " href="#">HUMAYA</a>
-                    </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#productos">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Locales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#contacto">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    </header>
-    
-    <main>
-        <!--Presentación-->
-        <section id="fondoBienvenida">
-        <div class="fondoDeHeader img-fluid d-flex justify-content-end" id="contenedorBienvenida" >
-                <div class="card-body align-items-center text-center contenedorTexto " id="Contenedor2">
-                    <h5 class="card-title text-white">DULCES DEL ALMA</h5>
-                    <p class="card-text text-white mt-3">Los productos HUMAYA son elaborados desde hace más de 50 con tradiciones familiares y sabores caseros, acompañándote día a día</p>
-                    <button href="#" type="button" class="btn btn-dark-opac text-white text-center d-grid gap-2 px-5 mx-auto mt-4 rounded-pill ">CONOCENOS</button>
-                </div>
-            </div>
+<body class="bg-dark container-fluid">
+  <div id="fondoBienvenida">
+  <header id="inicio">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="#inicio">
+            <img src="img/Logo/HconDulce100x100.png" alt="logo humaya" class="logo-navbar d-inline-block align-text-top">
+            <a class="navbar-brand" href="#inicio">HUMAYA</a>
+          </a>
         </div>
-        </section>
-        
-        <section id="productos">
-            <div class="text-pink d-flex justify-content-center">
-                <h1 class="m-3">Productos</h1>
-            </div>
-            
-            <article class="container-fluid" >
-                <div class="card col-sm-12" >
-                    <div class="row">
-                    <div class="col-md-6 p-0 ">
-                        <img src="./img/Productos/Producto1.png" class="card-img-top" style="height:100%" alt="...">
-                    </div>
-                    <div class="card-body bg-black col-md-6 ">
-                        <h5 class="card-title text-pink">DULCE DE LECHE TRADICIONALl</h5>
-                        <p class="card-text text-white">Elaboracion artesanal de principio a fin, con un sabor intenso, receta tradicional.Presentacion en frasco de vidrio de 580gr.</p>
-                        <p class="card-text">
-                            <small class="text-muted" >
-                                <span class="text-pink">Presentacion en frasco de vidrio de 580gr.</span>
-                            </small>
-                        </p>
-                        <div class="d-flex justify-content-center">
-                            <a href="#" class="btn btn-primary px-5">+info</a>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </article>
-
-            <article class="container-fluid">
-                <div class="card">
-                    <div class="row flex-row-reverse">
-                    <div class=" col-12 col-md-6 p-0">
-                        <img src="./img/Productos/Producto2.png" class="card-img-top" style="height:100%" alt="...">
-                    </div>
-                    <div class="card-body bg-black col-12 col-md-6">
-                        <h5 class="card-title text-pink">DULCE DE LECHE TRADICIONAL</h5>
-                        <p class="card-text text-white ">Elaboracion artesanal de principio a fin, con un sabor intenso, receta tradicional.Presentacion en frasco de vidrio de 580gr.</p>
-                        <p class="card-text">
-                            <small class="text-muted">
-                                <span class="text-pink">Presentacion en frasco de vidrio de 580gr.</span>
-                            </small>
-                        </p>
-                    <div class="d-flex justify-content-center">
-                        <a href="#" class="btn btn-primary px-5">+info</a>
-                    </div>
-                    </div>
-                </div> 
-                </div>
-            </article>
-
-            <article class="container-fluid">
-                <div class="card">
-                    <div class="row">
-                    <div class="col-md-6 p-0">
-                        <img src="./img/Productos/Producto3.png" class="card-img-top" style="height:100%" alt="...">
-                    </div>
-                    <div class="card-body bg-black col-md-6">
-                        <h5 class="card-title text-pink">DULCE DE LECHE TRADICIONAL</h5>
-                        <p class="card-text text-white">Elaboracion artesanal de principio a fin, con un sabor intenso, receta tradicional.Presentacion en frasco de vidrio de 580gr.</p>
-                        <p class="card-text">
-                            <small class="text-muted">
-                                <span class="text-pink">Presentacion en frasco de vidrio de 580gr.</span>
-                            </small></p>
-                        <div class="d-flex justify-content-center">
-                            <a href="#" class="btn btn-primary px-5">+info</a>
-                        </div>
-                    </div>
-                </div>
-                </div>
-
-            </article>
-            <div class="card mb-3">
-                <div class="row g-0 flex-row-reverse bg-alfajor">                  
-                <div class=" col-12 col-md-6 bg-alfajor">
-                    <img src="./img/Productos/alf (1).png" class="card-img-top" style="height:100%" alt="...">
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="card-body bg-alfajor">
-                        <h5 class="card-title text-brown">ALFAJORES DE MAIZENA</h5>
-                        <p class="card-text">Relleno de 2cm de pura dulzura.Pudiendo elegir entre dulce de leche tradicional, light o choconutt</p>
-                        <p class="card-text">
-                            <small class="text-muted">
-                                <span class="text-brown">Presentacion en caja de 6 y 12 alfajores.</span>
-                            </small>
-                        </p>
-                        <div class="d-flex justify-content-center"">
-                            <a href="#" class="btn btn-secondary px-5">+info</a>
-                        </div>
-                    </div>
-                </div>
-                
-                </div>
-            </div>
-
-
-        </section>
-
-        <!-- <section>
-            <div>
-                <h1 class="text-white">La mejor calidad para vos</h1>
-            <div><img src="" alt=""></div>
-            <div></div>
-            <div></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#productos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#recetas">Recetas</a>
+            </li>
+          </ul>
         </div>
-        </section> -->
-    <section id="contacto">
-        <div class="container-fluid">
-            <div class="row contact">
-                <div class="col-12">
-                    <h1 class="text-white d-flex justify-content-center m-3">Contactanos</h1>
-                </div>
-                <div class="col-12 col-md-6 mb-3"> 
-                    <img src="./img/Productos/Producto1.png" style="width: 100%;height: 100%;" alt=""> 
-                </div> 
-            
-                <div class="col-12 col-md-6">                
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label text-white d-flex justify-content-center">NOMBRE</label>
-                    <input type="text" class="form-control" aria-label="First name">
-                </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label text-white d-flex justify-content-center">E-MAIL</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" >
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label text-white d-flex justify-content-center">CONSULTA</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <div class="d-flex justify-content-center">
-                    <button type="button" class="btn btn-info m-3">ENVIAR</button>
-                </div>
-            </div>
-            </div>
-            </div>
-        </div>
-    </section>
-        
-    
-<section>
-<div class="container-fluid bg-pink">
-    <div class="row">
-        <div class="col-12 text-center text-white m-3">
-            <h3>Recetas</h3> 
-        </div>
-    
-        <div class="card bg-alfajor col-md-4">
-        <img src="./img/Productos/Producto1.png" class="card-img-top" alt="...">
-        <div class="card-body bg-alfajor">
-            <h5 class="card-title text-center text-brown">CONITOS</h5>
-            <p class="card-text card-text-rosa text-white">Una deliciosa opcion para acompaniar las meriendas, ese antojo de media noche o compartir con tus amigos.</p>
-            <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-secondary">Preparacion</button>
-            </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+  <!--Presentación-->
+  <section>
+    <div class="img-fluid d-flex justify-content-end" id="contenedorBienvenida" >
+      <div class="card-body align-items-center text-center contenedorTexto text-white " id="Contenedor2">
+        <h5 class="card-title">DULCES DEL ALMA</h5>
+        <p class="card-text mt-3">Los productos HUMAYA son elaborados desde hace más de 50 con tradiciones familiares y sabores caseros, acompañándote día a día</p>
+          <button href="#" type="button" class="btn btn-dark-opac d-grid gap-2 px-5 mx-auto mt-4 rounded-pill">CONOCENOS</button>
+      </div>
     </div>
+  </section>
+  </div>
+  <section id="productos">
+    <div class="text-pink d-flex justify-content-center">
+      <h1 class="m-3">Productos</h1>
     </div>
-
-    <div class="card card-pepa col-md-4 bg-alfajor">
-        <img src="./img/Productos/Producto2.png" class="card-img-top" alt="...">
-        <div class="card-body bg-alfajor">
-            <h5 class="card-title text-center text-brown">PEPAS</h5>
-            <p class="card-text card-text-rosa text-white">Las galletitas mas tiernas y ricas, rellenas de dulce de leche, ideales para el mate y la hora del te.</p>
-            <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-secondary">Preparacion</button>
-            </div>
-        </div>
-</div>
-
-    <div class="card bg-alfajor col-md-4">
-        <img src="./img/Productos/Producto1.png" class="card-img-top" alt="...">
-        <div class="card-body bg-alfajor">
-            <h5 class="card-title text-center text-brown">TORTA NUTT</h5>
-            <p class="card-text card-text-rosa text-white">La torta de tres capas mas sabrosa del mundo, combina una base de vainilla, dulce de leche y cubierta de choconutt</p>
-            <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-secondary ">Preparacion</button>
-            </div>
-    </div>
-    </div>
-    <div class="col-12 text-center text-white m-3">
-        <h3>Encontranos en:</h3> 
-    </div>
-</div>
-</div>
-</section>
-
-        
-        
-    </main>
-
-    <footer class="bg-black">
+    <article class="container-fluid" >
+      <div class="card col-sm-12" >
         <div class="row">
-            <div class="col-12 col-md-2 d-flex justify-content-center align-items-center" id="logo-footer">                
-                <img src="./img/Logo/HconDulce100x100.png" class="logo" alt="logo humaya" width="100px" height="100px" id="logo-footer2">
+          <div class="col-md-6 p-0 ">
+            <img src="./img/Productos/Producto1.png" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body bg-black col-md-6 ">
+            <h5 class="card-title text-pink">DULCE DE LECHE TRADICIONAL</h5>
+            <p class="card-text text-white">Elaboracion artesanal de principio a fin, con un sabor intenso, receta tradicional.Presentacion en frasco de vidrio de 580gr.</p>
+            <p class="card-text text-pink">
+              Presentacion en frasco de vidrio de 580gr.
+            </p>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-primary px-5">+info</a>
             </div>
-
-            <div class="col-6 col-md-2 text-center">
-                <h5 class="mt-5 text-pink" >MENU</h5>
-                <ul class="navbar-nav list-group ">
-                    <li class="list-group-item text-white bg-black nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="list-group-item text-white bg-black nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#productos">Productos</a>
-                    </li>
-                    <li class="list-group-item text-white bg-black">
-                        <a class="nav-link text-white" aria-current="page" href="#">Locales</a>
-                    </li>
-                    <li class="list-group-item text-white bg-black">
-                        <a class="nav-link text-white" aria-current="page" href="#contacto">Contactos</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-6 col-md-3 text- "> 
-                <h5 class="text-pink mt-5">NAVEGACION</h5>
-                <ul class="list-group d-flex justify-content-center">
-                    <li class="list-group-item text-white bg-black">
-                        <a class="nav-link text-white" aria-current="page" href="#">Preguntas frecuentes</a>
-                    </li>
-                    <li class="list-group-item text-white bg-black">
-                        <a class="nav-link text-white" aria-current="page" href="#">Distribuidores</a>
-                    </li>
-                    <li class="list-group-item text-white bg-black">
-                        <a class="nav-link text-white" aria-current="page" href="#">Prensa</a>
-                    </li>
-                    <li class="list-group-item text-white bg-black">
-                        <a class="nav-link text-white" aria-current="page" href="#">Recetas exclusivas</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-6 col-md-2">
-                <h5 class="text-pink text-center mt-5">REDES</h5>
-                <div class="d-flex flex-column align-items-center" id="redes">
-                    <div class="text-white my-3">
-                        <a class="nav-link text-white" aria-current="page" href="#">
-                            <i class="fa-brands fa-instagram fa-2xl"></i>
-                        </a>
-                    </div>
-                    <div class="text-white my-3">
-                        <a class="nav-link text-white" aria-current="page" href="#">
-                            <i class="fa-brands fa-square-facebook fa-2xl" ></i>
-                        </a>
-                    </div>
-                    <div class="text-white my-3">
-                        <a class="nav-link text-white" aria-current="page" href="#">
-                            <i class="fa-brands fa-tiktok fa-2xl"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-2">
-                <h5 class="text-pink text-center mt-5">UBICACION</h5>
-                <div class="d-flex justify-content-center">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5295503125385!2d-58.37417559999999!3d-34.6413271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4c8ba34523%3A0x3036a22f0aed209f!2sAv.%20Montes%20de%20Oca%2C%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1662503946094!5m2!1sen!2sar"
-                    width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
-            </div>
-
+          </div>
         </div>
-        
-    </footer>
+      </div>
+    </article>
+    <article class="container-fluid">
+      <div class="card">
+        <div class="row flex-row-reverse">
+          <div class=" col-12 col-md-6 p-0">
+            <img src="./img/Productos/Producto2.png" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body bg-black col-12 col-md-6">
+            <h5 class="card-title text-pink">DULCE DE LECHE TRADICIONAL</h5>
+            <p class="card-text text-white ">Elaboracion artesanal de principio a fin, con un sabor intenso, receta tradicional.Presentacion en frasco de vidrio de 580gr.</p>
+            <p class="card-text text-pink">
+              Presentacion en frasco de vidrio de 580gr.
+            </p>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-primary px-5">+info</a>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </article>
+    <article class="container-fluid">
+      <div class="card">
+        <div class="row">
+          <div class="col-md-6 p-0">
+            <img src="./img/Productos/Producto3.png" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body bg-black col-md-6">
+            <h5 class="card-title text-pink">DULCE DE LECHE TRADICIONAL</h5>
+            <p class="card-text text-white">Elaboracion artesanal de principio a fin, con un sabor intenso, receta tradicional.Presentacion en frasco de vidrio de 580gr.</p>
+            <p class="card-text text-pink">
+              Presentacion en frasco de vidrio de 580gr.
+            </p>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-primary px-5">+info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </article>
+      <div class="card mb-3">
+        <div class="row g-0 flex-row-reverse bg-alfajor">                  
+          <div class=" col-12 col-md-6 bg-alfajor">
+            <img src="./img/Productos/alf (1).png" class="card-img-top" style="height:100%" alt="...">
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="card-body bg-alfajor">
+              <h5 class="card-title text-brown">ALFAJORES DE MAIZENA</h5>
+              <p class="card-text">Relleno de 2cm de pura dulzura.Pudiendo elegir entre dulce de leche tradicional, light o choconutt</p>
+              <p class="card-text text-brown">
+                Presentacion en caja de 6 y 12 alfajores.
+              </p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn-secondary px-5">+info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacto" class="bg-dark">
+      <div class="container-fluid">
+        <div class="row contact">
+          <div class="col-12">
+            <h1 class="text-white d-flex justify-content-center m-3">Contactanos</h1>
+          </div>
+          <div class="col-12 col-md-6 mb-3"> 
+            <img src="./img/Productos/Producto1.png" class="img-contactanos" alt=""> 
+          </div> 
+          <div class="col-12 col-md-6">                
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label d-flex justify-content-center">NOMBRE</label>
+              <input type="text" class="form-control" aria-label="First name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label d-flex justify-content-center">E-MAIL</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" >
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label d-flex justify-content-center">CONSULTA</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-info m-3">ENVIAR</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>   
+    <section>
+      <div id="recetas">
+        <div class="row">
+          <div class="col-12 text-center text-white m-3">
+            <h1>Recetas</h1> 
+          </div>
+          <div class="card bg-alfajor col-md-4">
+            <img src="./img/Productos/Producto1.png" class="card-img-top" alt="...">
+            <div class="card-body bg-alfajor">
+              <h5 class="card-title text-center text-brown">CONITOS</h>
+              <p class="card-text card-text-rosa">Una deliciosa opcion para acompaniar las meriendas, ese antojo de media noche o compartir con tus amigos.</p>
+              <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary">Preparacion</button>
+              </div>
+            </div>
+          </div>
+          <div class="card card-pepa col-md-4 bg-alfajor">
+            <img src="./img/Productos/Producto2.png" class="card-img-top" alt="...">
+            <div class="card-body bg-alfajor">
+              <h5 class="card-title text-center text-brown">PEPAS</h5>
+              <p class="card-text card-text-rosa">Las galletitas mas tiernas y ricas, rellenas de dulce de leche, ideales para el mate y la hora del te.</p>
+              <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary">Preparacion</button>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-alfajor col-md-4">
+            <img src="./img/Productos/Producto1.png" class="card-img-top" alt="...">
+            <div class="card-body bg-alfajor">
+              <h5 class="card-title text-center text-brown">TORTA NUTT</h5>
+              <p class="card-text card-text-rosa">La torta de tres capas mas sabrosa del mundo, combina una base de vainilla, dulce de leche y cubierta de choconutt</p>
+              <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary">Preparacion</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>      
+  </main>
+  <footer class="bg-black">
+    <div class="row">
+      <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">                
+        <img src="./img/Logo/HconDulce100x100.png" alt="logo humaya" id="logo-footer">
+      </div>
+      <div class="col-6 col-md-2 text-center">
+        <h5 class="mt-5 text-pink" >MENU</h5>
+        <ul class="navbar-nav list-group ">
+          <li class="list-group-item nav-item">
+            <a class="nav-link " aria-current="page" href="#inicio">Home</a>
+          </li>
+          <li class="list-group-item nav-item">
+            <a class="nav-link " aria-current="page" href="#productos">Productos</a>
+          </li>
+          <li class="list-group-item">
+            <a class="nav-link" aria-current="page" href="#contacto">Contactos</a>
+          </li>
+          <li class="list-group-item">
+            <a class="nav-link" aria-current="page" href="#recetas">Recetas</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 text-center"> 
+        <h5 class="text-pink mt-5">NAVEGACION</h5>
+        <ul class="list-group d-flex justify-content-center">
+          <li class="list-group-item">
+            <a class="nav-link " aria-current="page" href="#">Preguntas frecuentes</a>
+          </li>
+          <li class="list-group-item">
+            <a class="nav-link" aria-current="page" href="#">Distribuidores</a>
+          </li>
+          <li class="list-group-item">
+            <a class="nav-link" aria-current="page" href="#">Prensa</a>
+          </li>
+          <li class="list-group-item">
+            <a class="nav-link" aria-current="page" href="#">Recetas exclusivas</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2">
+        <h5 class="text-pink text-center mt-5">REDES</h5>
+        <div class="d-flex flex-column align-items-center" id="redes">
+          <div class="my-3">
+            <a class="nav-link" aria-current="page" href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram fa-2xl"></i>
+            </a>
+          </div>
+          <div class="my-3">
+            <a class="nav-link" aria-current="page" href="https://www.facebook.com/">
+              <i class="fa-brands fa-square-facebook fa-2xl" ></i>
+            </a>
+          </div>
+          <div class="my-3">
+            <a class="nav-link" aria-current="page" href="https://www.tiktok.com/">
+              <i class="fa-brands fa-tiktok fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <h5 class="text-pink text-center mt-5">UBICACION</h5>
+        <div class="d-flex justify-content-center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5295503125385!2d-58.37417559999999!3d-34.6413271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4c8ba34523%3A0x3036a22f0aed209f!2sAv.%20Montes%20de%20Oca%2C%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1662503946094!5m2!1sen!2sar"
+            width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        </div>
+      </div>
+    </div>
+  </footer>
 
 <!--Scripts de Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
