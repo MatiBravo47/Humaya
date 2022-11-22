@@ -5,7 +5,7 @@
 
 ## Descripion del proyecto 
 
-<p>Pagina hecha en el curso de Codo a Codo, en base a una diseño presentado por la docente</p>
+<p>Pagina con diseño responsive hecha en el curso de Codo a Codo, en base a una diseño presentado por la docente</p>
 
 ## 📁 Acceso al proyecto
 
