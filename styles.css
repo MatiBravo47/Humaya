@@ -34,6 +34,10 @@
     margin: 0;
     padding: 0;
 } 
+#contenedor2{
+    max-width: 300px;
+    margin: 4rem;
+}
 /*Card */
 .cardGenerales {
     border: none;
@@ -110,41 +114,28 @@
 
 /*Media query*/
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    .cardGenerales {
-        color: black;
-    }
-    #img-form {
-    display: none;
-    }
     #Contenedor2{
         max-width: 100%;
     }
+
     #logo-footer{
         display: none;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1300px) {
+    #Contenedor2{
+        max-width: 300px;
+        margin: 4rem;
+    }
     #fondoBienvenida {
         height: 100%;
     }
     #redes {
         margin: 0;
     }
-    #contenedorBienvenida {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-end;
-        /* min-height: 1000px; */
-    }
-    .contenedorTexto {
-        margin: 4rem;
-    }
     #fondoDeHeader {
         min-height: 700px;
-    }
-    #Contenedor2{
-        max-width: 300px;
     }
     .card-text-rosa{
         min-height: 96px;
@@ -152,16 +143,9 @@
 }
 
 @media screen and (min-width: 1301px) {
-    #contenedorBienvenida {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-end;
-    }
-    .contenedorTexto {
-        margin: 4rem;
-    }
     #Contenedor2{
         max-width: 300px;
+        margin: 4rem;
     }
     .card-text-rosa{
         min-height: 96px;
