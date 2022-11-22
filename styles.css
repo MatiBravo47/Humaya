@@ -66,9 +66,10 @@
     border-color: #d5ac8c;
 }
 .btn-primary:visited, .btn-primary:hover, .btn-primary:active  {
-    background-color: #212529;
+    background-color: #000;
     border-color: #d5ac8c;
     color: #d5ac8c;
+    transition: all .7s;
 }
 
 .btn-secondary {
@@ -77,13 +78,14 @@
     color: #63421e;
 }
 .btn-secondary:hover {
-    background-color: #212529;
-    border-color: #63421e;
-    color: #63421e;
+    background-color: #313131;
+    border-color: #313131;
+    color: #d5ac8c;
+    transition: all .7s;
 }
 .btn-dark-opac{
     background-color: rgba(33, 37, 41,.6);
-    color: white;
+    color: grey;
 }
 .logo-navbar{
     height: 48px;
@@ -163,12 +165,15 @@
 }
 .fa-square-facebook:hover {
     color: #1977F3;
+    transition: all .7s;
 }
 .fa-tiktok:hover{
     color: pink;
+    transition: all .7s;
 }
 .fa-instagram:hover{
-    color:#BC0089
+    color:#BC0089;
+    transition: all .7s;
 }    
 .list-group-item{
     background-color: black;
